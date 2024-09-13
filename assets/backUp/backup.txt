@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>stackOverflow</title>
+</head>
+<body>
+
+    
+
+
+
+
+
+    <!-- Top Nav -->
+    <div>
+    <!--<hr class="yBar">-->
+    <div class="topNav">
+        <div class="tnIcon">
+            <img src="soIcon.png" alt="stackOverflowIcon" width="150">
+        </div>
+        <div>
+            <button class="tnBtn">About</button>
+        </div>
+        <div>
+            <button  class="tnBtn">Products</button>
+        </div>
+        <div>
+            <button class="tnBtn">OverflowAI</button>
+        </div>
+        <div class="srchBar">
+            <input type="text" placeholder="Search User">
+        </div>
+        <div>
+            <button class="logIn">Log in</button>
+        </div>
+        <div>
+            <button class="signUp">Sign up</button>
+        </div>
+    </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <div class="navNdMain">
+        <!-- Side Nav -->
+         <div class="sideNav">
+            <div class="navHome">
+                <a href=""><img src="homeIcon.png" alt="homeIcon" width="20">Home</a>
+            </div>
+            <div class="navQn">
+                <a href=""><img src="questionsIcon.jpg" alt="questionsIcon" width="20">Questions</a>
+            </div>
+            <div class="navTags">
+                <a href=""><img src="tags.png" alt="tagsIcon" width="20">Tags</a>
+            </div>
+            <div class="navUsers">
+                <a href=""><img src="users.png" alt="tagsIcon" width="20">Users</a>
+            </div>
+            <div class="navComp">
+                <a href=""><img src="companies.jpg" alt="tagsIcon" width="20">Companies</a>
+            </div>
+            <a href="">
+                <div class="navLabs">
+                    <div>LABS</div>
+                    <div class="iImg"><img src="i.png" alt="iIcon" width="15"></div>
+                </div>
+            </a>
+            <div class="navJobs">
+                <a href=""><img src="jobs.png" alt="jobs" width="20">jobs</a>
+            </div>
+            <div class="navDsc">
+                <a href=""><img src="discussions.png" alt="discussions" width="15">discussions</a>
+            </div>
+            <a href="">
+                <div class="navLabs">
+                    <div>COLLECTIVES</div>
+                    <div class="pImg"><img src="plus.png" alt="plusIcon" width="15"></div>
+                </div>
+            </a>
+            <div class="ml">
+                <p>Communities for your favorite technologies. <a href="" class="nA"> Explore all Collectives</a></p>
+            </div>
+            <div class="navTeams">
+                TEAMS
+            </div>
+            <div class="ofai">
+                <img src="ofai.png" alt="ofai" width="150">
+            </div>
+            <div class="ml">
+                Now available on Stack Overflow for Teams! AI features where you work: search, IDE, and chat.
+            </div>
+            <div class="ml">
+                <button class="ysnb">Learn more</button>
+            </div>
+            <div class="ml">
+                <button class="nsnb">Explore Teams</button>
+            </div>
+         </div>
+
+
+
+
+
+         
+
+         <!-- Main -->
+          <div class="main">
+
+
+
+            <!-- About -->
+            <div class="about">
+
+                <div class="abtPic">
+                    <img class="von" src="vonC.jpg" alt="vonC" width="130">
+                </div>
+                <div class="abtAbt">
+                    <h1>VonC</h1>
+                    <div>
+                        <img class="abti" src="bd.png" alt="bd" width="15">Member for 16 years <img class="abti" src="clock.png" alt="clock" width="15">Last seen this week
+                    </div>
+                    <div class="l2">
+                        <img class="abti" src="twitter.png" alt="twitter" width="15"><img class="abti" src="octocat.jpg" alt="octocat" width="15"><img class="abti" src="link.jpg" alt="link" width="15">Twitter GitHub devstory.fyi/vonc <img class="abti" src="loc.png" alt="location" width="15">France
+                    </div>
+                </div>
+		<div class="ddc">
+			<select>
+				<option class="dd">Profiles</option>
+				<option>Meta user</option>
+				<option>Network profile</option>
+			</select>
+				
+		</div>
+            </div>
+
+
+            <div class="pAA">
+                <div>
+                    <button class="yb">Profile</button>
+                </div>
+                <div>
+                    <button class="nb">Activity</button>
+                </div>
+            </div>
+
+
+
+
+            <!-- Body Cont -->
+             <div class="boCo">
+
+                <!-- LEFT -->
+                <div class="left">
+                    <h2>
+                        Stats
+                    </h2>
+                    <!-- Stats -->
+                    <div class="stats">
+                        <div class="stLeft">
+                            <div>
+                                <h3>1,297,467</h3>
+                            </div>
+                            <div class="tm">
+                                <p>reputation</p>
+                            </div>
+                            <div>
+                                <h3>29,663</h3>
+                                <p>answers</p>
+                            </div>
+                            <div>
+                                <img src="tro.png" alt="trophy" width="20">
+                                <p>#2 overall</p>
+                            </div>
+                        </div>
+                        <div class="stRight">
+                            <div>
+                                <h3>377.3m</h3>
+                                <p>reached</p>
+                            </div>
+                            <div></div>
+                                <h3>16</h3>
+                                <p>questions</p>
+                            </div>
+                        </div>
+
+                        <!-- Collectives -->
+                        <div>
+                            <h2>Collectives</h2>
+                            <div class="coll">
+                                <div class="coRow">
+                                    <div class="coLt">
+                                        <img src="nlp.png" alt="nlp" width="50">
+                                    </div>
+                                    <div class="coRt">
+                                        <h5>NLP</h5>
+                                        <p>2023 . Member</p>
+                                    </div>
+                                </div>
+                                <div class="coRow">
+                                    <div class="coLt">
+                                        <img src="rLang.jpg" alt="rLang" width="50">
+                                    </div>
+                                    <div class="coRt">
+                                        <h5>R Language</h5>
+                                        <p>2023 . Member</p>
+                                    </div>
+                                </div>
+                                <div class="coRow">
+                                    <div class="coLt">
+                                        <img src="md.png" alt="mobDev" width="50">
+                                    </div>
+                                    <div class="coRt">
+                                        <h5>Mobile Development</h5>
+                                        <p>2023 . Member</p>
+                                    </div>
+                                </div>
+                                <div class="coRow">
+                                    <div class="coLt">
+                                        <img src="ciCd.png" alt="ci/cd" width="50">
+                                    </div>
+                                    <div class="coRt">
+                                        <h5>CI/CD</h5>
+                                        <p>2023 . Recongnized</p>
+                                    </div>
+                                </div>
+                                <div class="coRow">
+                                    <div class="coLt">
+                                        <img src="msAzure.png" alt="msAzure" width="50">
+                                    </div>
+                                    <div class="coRt">
+                                        <h5>Microsoft Azure</h5>
+                                        <p>2023 . Member</p>
+                                    </div>
+                                </div>
+                                <div class="coRow">
+                                    <div class="coLt">
+                                        <img src="googleCloud.png" alt="googleCloud" width="50">
+                                    </div>
+                                    <div class="coRt">
+                                        <h5>Google Cloud</h5>
+                                        <p>2021 . Member</p>
+                                    </div>
+                                </div>
+                                <div class="coRow">
+                                    <div class="coLt">
+                                        <img src="aws.png" alt="aws" width="50">
+                                    </div>
+                                    <div class="coRt">
+                                        <h5>AWS</h5>
+                                        <p>2023 . Member</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Communities -->
+                         <div class="comHd">
+                            <div>
+                                <h2>Communities</h2>
+                            </div>
+                            <div class="comV">
+                                View all
+                                <img src="arr.png" alt="arrow" width="10">
+                            </div>
+                         </div>
+                         <div class="comTab">
+                            <div class="comLt">
+                                <a href=""><img src="so.png" alt="stackOverflowIcon" width="20">&nbsp; Stack Overflow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.3m</a>
+                                <br><br>
+                                <a href=""><img src="engLang.jpg" alt="engLang" width="18">&nbsp;English Language & Usage 14.8k</a>
+                                <br><br>
+                                <a href=""><img src="su.png" alt="superUser" width="20">&nbsp;Super User&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 14.5k</a>
+                                <br><br>
+                                <a href=""><img src="metaEx.png" alt="metaStackExchange" width="20">&nbsp;Meta Stack Exchange&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 13.7k</a>
+                                <br><br>
+                                <a href=""><img src="sf.png" alt="serverFault" width="20">&nbsp;Server Fault&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.8k</a>
+                            </div>
+                            <div class="comRt">
+
+                            </div>
+                         </div>
+                    </div>
+
+
+
+
+
+
+
+                    <!-- RIGHT -->
+                    <div class="right">
+
+
+                        <!-- About -->
+                        <div class="abt">
+                        <h2>About</h2>
+                            <ul>
+                                <li class="b"><img src="scMan.png" alt="scMan"><a href =" https://stackoverflow.com/questions/645008/what-are-the-basic-clearcase-concepts-every-developer-should-know#645771"><b>System Configuration Management</b></a> Administrator (<a href="https://stackoverflow.com/questions/176858/in-clearcase-how-can-i-view-old-version-of-a-file-in-a-static-view-from-the-co">ClearCase</a>, <a  href="">SVN</a>, <a href="">Git</a>), defining various <a href="">merge<br> workflows</a> between branches.</li>
+                                 <li class="b"><img src="devArc.png" alt="devArc"><a href=""><b>Development Architect</b></a>, which involves:
+                            <ul>
+                                <li>tools support around <a href="">java technologies</a>, including <a href="">eclipse </a>.</li>
+                                <li>code quality evaluation, including <a href="">metrics definitions</a>, and <a href="">code static tools</a> for <a href=""><b>different populations</b></a>.</li>
+                                <li>code management (<a href="">Jira</a>, <a href="">FishEye/Crucible</a>, <a href="">Maven</a>, <a href="">Hudson</a>, <a href="">Sonar</a>)</li>
+                            </ul>
+                            </li> 
+                            </ul>
+                        </div>
+                        
+                        <!-- Badges -->
+                         <div class="bdH">
+				<div>
+                            		<h2>Badges</h2>
+				</div>
+				<div class="vab">
+					<p><a href="">view all badges</a></p>
+				</div>
+                         </div>
+                        <div class="badges">
+
+
+                            <!-- Gold -->
+                            <div class="bg">
+                                <div class="bH">
+                                    <div>
+                                        <img src="gb.png" alt="goldBadge">
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <h3>554</h3>
+                                        </div>
+                                        <div>
+                                            gold badges
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bRow">
+                                    <div>
+                                        <button><img src="gc.png" alt="goldCircle" width="7">clearcase</button>
+                                    </div>
+                                    <div class="brRtg1">
+                                        Apr 21, 2012
+                                    </div>
+                                </div>
+                                <div class="bRow">
+                                    <div>
+                                        <button><img src="gc.png" alt="goldCircle" width="7">git-submodules</button>
+                                    </div>
+                                    <div class="brRtg2">
+                                        Aug 14, 2014
+                                    </div>
+                                </div>
+                                <div class="bRow">
+                                    <div>
+                                        <button><img src="gc.png" alt="goldCircle" width="7">bitbucket</button>
+                                    </div>
+                                    <div class="brRtg3">
+                                        Aug 12, 2016
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Silver -->
+                            <div class="bg2">
+                                <div class="bH">
+                                    <div>
+                                        <img src="sb.jpg" alt="silverBadge">
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <h3>4,651</h3>
+                                        </div>
+                                        <div>
+                                            silver badges
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bRow">
+                                    <div>
+                                        <button><img src="sc.png" alt="silverCircle" width="7">gitignore</button>
+                                    </div>
+                                    <div class="brRts1">
+                                        Feb 2, 2015
+                                    </div>
+                                </div>
+                                <div class="bRow">
+                                    <div>
+                                        <button><img src="sc.png" alt="silverCircle" width="7">diff</button>
+                                    </div>
+                                    <div class="brRts2">
+                                        Mar 29, 2015
+                                    </div>
+                                </div>
+                                <div class="bRow">
+                                    <div>
+                                        <button><img src="sc.png" alt="silverCircle" width="7">git-clone</button>
+                                    </div>
+                                    <div class="brRts3">
+                                        Nov 14, 2015
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Bronze -->
+                            <div class="bg2">
+                                <div class="bH">
+                                    <div>
+                                        <img src="bb.png" alt="bronzeBadge">
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <h3>5,504</h3>
+                                        </div>
+                                        <div>
+                                            bronze badges
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bRow">
+                                    <div>
+                                        <button><img src="bc.webp" alt="bronzeCircle" width="7">github-desktop</button>
+                                    </div>
+                                    <div class="brRtb1">
+                                        May 19, 2023
+                                    </div>
+                                </div>
+                                <div class="bRow">
+                                    <div>
+                                        <button><img src="bc.webp" alt="bronzeCircle" width="7">ssh-keygen</button>
+                                    </div>
+                                    <div class="brRtb2">
+                                        Feb 14, 2023
+                                    </div>
+                                </div>
+                                <div class="bRow">
+                                    <div>
+                                        <button><img src="bc.webp" alt="bronzeCircle" width="7">file-permissions</button>
+                                    </div>
+                                    <div class="brRtb3">
+                                        Feb 11, 2023
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+
+
+
+
+                        <!-- Top Tags -->
+                         <div class="topTags">
+			   <div class="ttH">
+				<div>
+	                            <h2>Top Tags</h2>
+				</div>
+				<div class="ttH2">
+ 					<p><a href="">view all tags</a>
+				</div>
+			   </div>
+                            <div class="ttOuter">
+                                <div class="ttags">
+                                    <div>
+                                        <button class="ttBut">git</button>
+                                        <img src="gc.png" alt="goldCircle" width="7">
+                                    </div>
+                                    <div class="ttr1">
+                                        149,575 Score&nbsp;&nbsp;&nbsp;15,829 Posts&nbsp;&nbsp;&nbsp;53 Posts %
+                                    </div>
+                                </div>
+                                <hr class="div">
+                                <div class="ttags">
+                                    <div>
+                                        <button class="ttBut">github</button>
+                                        <img src="gc.png" alt="goldCircle" width="7">
+                                    </div>
+                                    <div class="ttr1">
+                                        33,942Score&nbsp;&nbsp;&nbsp;5,915 Posts&nbsp;&nbsp;&nbsp;20 Posts %
+                                    </div>
+                                </div>
+                                <hr class="div">
+                                <div class="ttags">
+                                    <div>
+                                        <button class="ttBut">docker</button>
+                                        <img src="gc.png" alt="goldCircle" width="7">
+                                    </div>
+                                    <div class="ttr1">
+                                        16,516 Score&nbsp;&nbsp;&nbsp;1,819 Posts&nbsp;&nbsp;&nbsp;6 Posts %
+                                    </div>
+                                </div>
+                                <hr class="div">
+                                <div class="ttags">
+                                    <div>
+                                        <button class="ttBut">eclipse</button>
+                                        <img src="gc.png" alt="goldCircle" width="7">
+                                    </div>
+                                    <div class="ttr1">
+                                        16,192 Score&nbsp;&nbsp;&nbsp;1,887 Posts&nbsp;&nbsp;&nbsp;6 Posts %
+                                    </div>
+                                </div>
+                                <hr class="div">
+                                <div class="ttags">
+                                    <div>
+                                        <button class="ttBut">version-control</button>
+                                        <img src="gc.png" alt="goldCircle" width="7">
+                                    </div>
+                                    <div class="ttr2">
+                                        14,050 Score&nbsp;&nbsp;&nbsp;1,396 Posts&nbsp;&nbsp;&nbsp;5 Posts %
+                                    </div>
+                                </div>
+                                <hr class="div">
+                                <div class="ttags">
+                                    <div>
+                                        <button class="ttBut">go</button>
+                                        <img src="gc.png" alt="goldCircle" width="7">
+                                    </div>
+                                    <div class="ttr3">
+                                        10,596 Score&nbsp;&nbsp;&nbsp;1,201 Posts&nbsp;&nbsp;&nbsp;4 Posts %
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <!-- Top Posts -->
+                         <div class="topPosts">
+			<div>
+                            <div class="tpH">
+                                    <div>
+                                        <h2>Top posts</h2>
+					View all <a href="">questions</a>, <a href="">answers</a>, and <a href="">articles</a>
+                                    </div>
+				    <div >
+					<div class="tpHB">
+					<div class="tpHB1">
+						<button class="bs">All</button>
+						<button>Questions</button>
+						<button>Answers</button>
+						<button>Articles</button>
+					</div>
+					<div class="tpHB2">
+						<button class="bs">Score</button>
+						<button>Newest</button>
+					</div>
+					</div>
+				    </div>
+				    <div>
+			</div>
+                            </div>
+				<div class="tptOut">
+                            <div class="tpTab">
+                               <div class="tptGa">
+					<img src="ga.png" alt="ga" width="20">
+				</div>
+				<div class="tptN">
+					2667
+				</div>
+				<div class="tptQn">
+					<a href="">How do I remove a submodule?</a>
+				</div>
+				<div class="tptD1">
+					April 23, 2013
+				</div>
+                            </div>
+				<hr>
+				<div class="tpTab">
+                               <div class="tptGa">
+					<img src="ga.png" alt="ga" width="20">
+				</div>
+				<div class="tptN">
+					2511
+				</div>
+				<div class="tptQn">
+					<a href="">How to get just one file from another branch</a>
+				</div>
+				<div class="tptD2">
+					Mar 2, 2010
+				</div>
+                            </div>
+				<hr>
+				<div class="tpTab">
+                               <div class="tptGa">
+					<img src="ga.png" alt="ga" width="20">
+				</div>
+				<div class="tptN">
+					1955
+				</div>
+				<div class="tptQn">
+					<a href="">How to remove old and unused Docker images</a>
+				</div>
+				<div class="tptD3">
+					Sep 22, 2015
+				</div>
+                            </div>
+				<hr>
+				<div class="tpTab">
+                               <div class="tptGa">
+					<img src="ga.png" alt="ga" width="20">
+				</div>
+				<div class="tptN">
+					1825
+				</div>
+				<div class="tptQn">
+					<a href="">Skip Git commit hooks</a>
+				</div>
+				<div class="tptD4">
+					Aug 29, 2011
+				</div>
+                            </div>
+				<hr>
+				<div class="tpTab">
+                               <div class="tptGa">
+					<img src="ga.png" alt="ga" width="20">
+				</div>
+				<div class="tptN">
+					1761
+				</div>
+				<div class="tptQn">
+					<a href="">GitHub relative link in Markdown file</a>
+				</div>
+				<div class="tptD5">
+					Oct 5, 2011
+				</div>
+                            </div>
+				<hr>
+				<div class="tpTab">
+                               <div class="tptGa">
+					<img src="ga.png" alt="ga" width="20">
+				</div>
+				<div class="tptN">
+					1752
+				</div>
+				<div class="tptQn">
+					<a href="">How to list branches that contain a given commit?</a>
+				</div>
+				<div class="tptD6">
+					Sep 14, 2009
+				</div>
+                            </div>
+				<hr>
+				<div class="tpTab">
+                               <div class="tptGa">
+					<img src="ga.png" alt="ga" width="20">
+				</div>
+				<div class="tptN">
+					1703
+				</div>
+				<div class="tptQn">
+					<a href="">Where is the global git config data stored?</a>
+				</div>
+				<div class="tptD7">
+					Jan 22, 2010
+				</div>
+                            </div>
+				<hr>
+				<div class="tpTab">
+                               <div class="tptGa">
+					<img src="ga.png" alt="ga" width="20">
+				</div>
+				<div class="tptN">
+					1452
+				</div>
+				<div class="tptQn">
+					<a href="">How to merge a specific commit in Git</a>
+				</div>
+				<div class="tptD8">
+					May 19, 2009
+				</div>
+                            </div>
+				<hr>
+				<div class="tpTab">
+                               <div class="tptGa">
+					<img src="ga.png" alt="ga" width="20">
+				</div>
+				<div class="tptN">
+					1373
+				</div>
+				<div class="tptQn">
+					<a href="">Eclipse/Java code completion not working</a>
+				</div>
+				<div class="tptD9">
+					May 26, 2009
+				</div>
+                            </div>
+				<hr>
+				<div class="tpTab">
+                               <div class="tptGa">
+					<img src="ga.png" alt="ga" width="20">
+				</div>
+				<div class="tptN">
+					1350
+				</div>
+				<div class="tptQn">
+					<a href="">Need to reset git branch to origin version</a>
+				</div>
+				<div class="tptD10">
+					Feb 15, 2012
+				</div>
+                            </div>
+                        </div>
+			</div>
+			
+			
+			<!-- Top Meta Posts -->
+			<div class="tmp">
+			<div class="tmpH">
+				<div>
+					<h2>Top Meta posts</h2>
+				</div>
+				<div class="tmpH2">
+					<p><img src="qnText.jpg" alt="qnText" width="20">4 <img src="d.png" alt="dialogue" width="10">7</p>
+				</div>
+			<!--tmpH--></div>
+			<div class="tmpTab">
+				<div class="tmpR">
+					<div class="tmpI"><img src="soFavicon.png" alt="soFavicon" width="20"></div>
+					<div class="tmpN">643</div>
+					<div class="tmpQ"><a href="">Congratulations VonC for reaching a million reputation</a></div>
+				</div>
+				<hr>
+				<div class="tmpR">
+					<div class="tmpI"><img src="soFavicon.png" alt="soFavicon" width="20"></div>
+					<div class="tmpN">185</div>
+					<div class="tmpQ"><a href="">What's up with China?</a></div>
+				</div>
+				<hr>
+				<div class="tmpR">
+					<div class="tmpI"><img src="soFavicon.png" alt="soFavicon" width="20"></div>
+					<div class="tmpN">138</div>
+					<div class="tmpQ"><a href="">Congratulations BalusC for reaching a million reputation!</a></div>
+				</div>
+				<hr>
+				<div class="tmpR">
+					<div class="tmpI"><img src="soFavicon.png" alt="soFavicon" width="20"></div>
+					<div class="tmpN">76</div>
+					<div class="tmpQ"><a href="">Why is there a daily reputation limit of 200 points?</a></div>
+				</div>
+				<hr>
+				<div class="tmpR">
+					<div class="tmpI"><img src="soFavicon.png" alt="soFavicon" width="20"></div>
+					<div class="tmpN">41</div>
+					<div class="tmpQ"><a href="">Should we edit a question to transcribe code from an image to text?</a></div>
+				</div>
+				
+			<!--tmpTab--></div>
+
+
+
+
+			<!--tmp end--></div>
+
+
+			<!-- Top Network Posts -->
+			<div class="tnp">
+				<div class="tnpH">
+					<div><h2>Top network posts</h2></div>
+					<div class="tnpH2"><p><a href="" class="va">view all network posts</a></p></div>
+				</div>
+				<div class="tnpOut">
+					<div class="tnpR">
+						<div class="tnpI"><img src="su.png" alt="superUser" width="20"></div>
+						<div class="tnpN">393</div>
+						<div class="tnpQ"><a href="">How do I reset 'master' to 'origin/master'?</a></div>
+					</div>
+					<hr>
+					<div class="tnpR">
+						<div class="tnpI"><img src="su.png" alt="superUser" width="20"></div>
+						<div class="tnpN">338</div>
+						<div class="tnpQ"><a href="">How to control Windows 7 snap feature with two monitors?</a></div>
+					</div>
+					<hr>
+					<div class="tnpR">
+						<div class="tnpI"><img src="metaEx.png" alt="metaEx" width="20"></div>
+						<div class="tnpN">275</div>
+						<div class="tnpQ"><a href="">How about a "Vote not to close" option to counter the "Vote to close"?</a></div>
+					</div>
+					<hr>
+					<div class="tnpR">
+						<div class="tnpI"><img src="metaEx.png" alt="metaEx" width="20"></div>
+						<div class="tnpN">166</div>
+						<div class="tnpQ"><a href="">Anyone with a "visited: 5555 days, 5555 consecutive" in their profile?</a></div>
+					</div>
+					<hr>
+					<div class="tnpR">
+						<div class="tnpI"><img src="metaEx.png" alt="metaEx" width="20"></div>
+						<div class="tnpN">151</div>
+						<div class="tnpQ"><a href="">Jon Skeet Facts</a></div>
+					</div>
+				</div>
+
+
+
+			<!--tnp--></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                </div>
+                </div>
+             </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+    <!-- footer -->
+    <div class="ftr">
+	<div class="ftrIcon">
+		<img src="so.webp" alt="soImage" width="40">
+	</div>
+
+	<div class="stackO">
+		<div><a href="" class="ftrA"><h4>STACK OVERFLOW</h4></a></div>
+		<div class="ftrCt"><a href="" class="ftrA">Questions</a></div>
+		<div class="ftrCt"><a href="" class="ftrA">Help</a></div>
+		<div class="ftrCt"><a href="" class="ftrA">Chat</a></div>
+	</div>
+
+
+	<div class="Products">
+		<div><h4><a href="" class="ftrA">PRODUCTS</a></h4></div>
+		<div class="ftrCt"><a href="" class="ftrA">Teams</a></div>
+		<div class="ftrCt"><a href="" class="ftrA">Advertising</a></div>
+		<div class="ftrCt"><a href="" class="ftrA">Talent</a></div>
+	</div>
+	
+
+	<div class="Company">
+		<div><h4><a href="" class="ftrA">COMPANY </a></h4></div>
+		<div class="ftrCt"><a href="" class="ftrA">About</a></div>
+		<div class="ftrCt"><a href="" class="ftrA">Press</a></div>
+		<div class="ftrCt"><a href="" class="ftrA">Work Here</a></div>
+		<div class="ftrCt"><a href="" class="ftrA">Legal</a></div>
+		<div class="ftrCt"><a href="" class="ftrA">Privacy Policy</a></div>
+		<div class="ftrCt"><a href="" class="ftrA">Terms of Service</a></div>
+		<div class="ftrCt"><a href="" class="ftrA">Contact Us</a></div>
+		<div class="ftrCt"><a href="" class="ftrA">Cookie Settings</a></div>
+		<div class="ftrCt"><a href="" class="ftrA">Cookie Policy</a></div>
+	</div>
+	
+
+	<div class="stackExN">
+		<div><h4><a href="" class="ftrA">STACK EXCHANGE NETWORK</a></h4></div>
+		<div class="ftrCt"><a href="" class="ftrA">Technology</a></div>
+		<div class="ftrCt"><a href="" class="ftrA">Culture & recreation</a></div>
+		<div class="ftrCt"><a href="" class="ftrA">Life & arts</a></div>
+		<div class="ftrCt"><a href="" class="ftrA">Science</a></div>
+		<div class="ftrCt"><a href="" class="ftrA">Professional</a></div>
+		<div class="ftrCt"><a href="" class="ftrA">Business</a></div>
+		<div class="ftrCt"><a href="" class="ftrA">API</a></div>
+		<div class="ftrCt"><a href="" class="ftrA">Data</a></div>
+	</div>
+	
+
+	<div class="blog">
+		<div>
+			<a href="" class="ftrA">blog</a>
+			<a href="" class="ftrA">Facebook</a>
+			<a href="" class="ftrA">Twitter</a>
+			<a href="" class="ftrA">LinkedIn</a>
+			<a href="" class="ftrA">Instagram</a>
+		</div>
+		<div class="sdLogo">
+ 			<p>Site design / logo © 2024 Stack Exchange Inc; user contributions<br> licensed under <a href="">CC BY-SA</a> . rev 2024.9.4.14806</p>
+		</div>
+	</div>
+    
+
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

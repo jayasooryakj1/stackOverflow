@@ -1,0 +1,52 @@
+<h2>
+                        Stats
+                    </h2>
+                    <!-- Stats -->
+                    <div class="stats">
+                        <div class="stLeft">
+                            <div>
+                                <h3>1,297,467</h3>
+                            </div>
+                            <div class="tm">
+                                <p>reputation</p>
+                            </div>
+                            <div>
+                                <h3>29,663</h3>
+                                <p>answers</p>
+                            </div>
+                            <div>
+                                <img src="tro.png" alt="trophy" width="20">
+                                <p>#2 overall</p>
+                            </div>
+                        </div>
+                        <div class="stRight">
+                            <div>
+                                <h3>377.3m</h3>
+                                <p>reached</p>
+                            </div>
+                            <div></div>
+                                <h3>16</h3>
+                                <p>questions</p>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+.stats{
+    display: flex;
+    border: 1px solid  #ddd;
+    border-radius: 5px;
+    padding: 0px 15px;
+    width: 200px;
+}
+
+.stRight{
+    margin-left: 60px;
+}
