@@ -1,18 +1,7 @@
-body{
+*{
  margin:0px;
- font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-font-kerning: auto;
-font-size: 13px;
+ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
 }
-
-h1{
- font-weight:10;
-}
-
-h2{
- font-weight:10;
-}
-
 
 
 /* Yellow HR */
@@ -65,8 +54,10 @@ h2{
 
 /* Top Nav Search Bar */
 .srchBar input{
+    padding-left:25px;
+    background:url("../assets/images/mag.png") center left no-repeat;
     margin-left: 10px;
-    width: 700px;
+    width: 650px;
     height: 28px;
     border-radius: 4px;
     border: 1px solid;
@@ -122,13 +113,15 @@ h2{
     width: 280px;
     height: 580px;
     overflow-y: scroll;
+    overflow-x: hidden;
     z-index:0;
-	padding-bottom:40px;
-    
+    padding-bottom:40px;
+    padding-top:10px;    
+    font-size:13px;
 }
 
 .sideNav button{
- font-size:9px;
+ font-size:12px;
 }
 .sideNav a{
     text-decoration: none;
@@ -138,6 +131,12 @@ h2{
 .navHome{
     margin-top: 10px;
     margin-left: 60px;
+}
+
+.navHome img{
+ position:relative;
+ top:3px;
+ margin-right:5px;
 }
 .navQn{
     margin-top: 10px;
@@ -150,6 +149,11 @@ h2{
 .navUsers{
     margin-top: 30px;
     margin-left: 60px;
+}
+.navUsers img{
+ position:relative;
+ top:3px;
+ margin-right:5px;
 }
 .navComp{
     margin-top: 10px;
@@ -165,18 +169,18 @@ h2{
     margin-left: 90px;
 }
 
-.navJobs{
+.navJobs {
     margin-top: 10px;
     margin-left: 60px;
 }
-
-.navDsc{
-    margin-top: 10px;
-    margin-left: 60px;
+.navJobs img{
+ position:relative;
+ top:3px;
+ margin-right:5px;
 }
 
 .pImg{
-    margin-left: 20px;
+    margin-left: 2px;
 }
 .nA{
     text-decoration: underline;
@@ -200,11 +204,24 @@ h2{
 
 .main{
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 5px;
     width: 100%;
     overflow-y: hidden;
     overflow-X: hidden;
 }
+
+
+.name {
+ font-size:30px;
+ margin-top:20px;
+}
+
+.heading{
+ font-size:23px;
+ margin-bottom:10px;
+ margin-top:10px;
+}
+
 .ysnb{
     background-color: #F48024;
     color: white;
@@ -243,6 +260,12 @@ h2{
 .about{
     display: flex;
 }
+.abt{
+ font-size:15px;
+}
+.abt a{
+ color:blue;
+}
 .von{
     margin-left: 30px;
     margin-top: 20px;
@@ -261,6 +284,11 @@ h2{
 .abti{
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.profileAbout{
+ font-size:13px;
+ color:grey;
 }
 
 .fl{
@@ -310,18 +338,34 @@ h2{
 
 /* LEFT */
 .left{
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 
 /* Stats */
-
+.sṭatsBold{
+ font-size:18px;
+}
 
 .tm{
     margin-top: 0px;
 }
 
 /*Stats*/
+
+
+.stats{
+    display: flex;
+    border: 1px solid  #ddd;
+    border-radius: 5px;
+    padding: 0px 15px;
+    width: 220px;
+    margin-top:5px;
+}
+
+.stRight{
+    margin-left: 60px;
+}
 .stOut{
  border:1px solid #ddd;
 }
@@ -331,13 +375,30 @@ h2{
 .stRR{
  margin-left:100px;
 }
+.statsNormal{
+ font-size:13px;
+ margin-bottom:15px;
+ color:grey;
+}
+
+
+
 /* Collectives */
 
 .coll{
     border: 1px solid  #ddd;
     border-radius: 5px;
     padding: 0px 15px;
-    width: 200px;
+    width: 220px;
+}
+.colMain{
+ margin-top:20px;
+}
+
+.coll img{
+ position:relative;
+ top:3px;
+ margin-right:5px;
 }
 
 .coRow{
@@ -346,12 +407,17 @@ h2{
 
 .coRt{
     margin-left: 5px;
+    margin-top:30px;
 }
 .coLt{
     margin-top: 25px;
 }
-
-
+.colBig{
+ font-size:14px;
+}
+.colNormal{
+ font-size:11px;
+}
 /* Communities */
 .comHd{
     display: flex;
@@ -366,7 +432,7 @@ h2{
     border: 1px solid  #ddd;
     border-radius: 5px;
     padding: 0px 10px;
-    width: 200px;
+    width: 230px;
 }
 .comTab a{
  text-decoration:none;
@@ -383,7 +449,7 @@ h2{
 
 /*RIGHT*/
 .right{
- margin-left:10px;
+ margin-left:30px;
 }
 
 /* Badges */
@@ -404,10 +470,19 @@ margin-top:15px;
  text-decoration:none;
  color:grey;
 }
-.bg{
+.bg, .bg2, .bg3{
     /* display: flex; */
     border: 1px solid  #ddd;
     border-radius: 5px;
+    font-size:12px;
+}
+
+.badgesBig{
+ font-size:20px;
+}
+
+.bg button{
+ padding:5px;
 }
 
 .bH{
@@ -521,6 +596,8 @@ margin-top:15px;
 .tpHB button{ 
  border:none;
 }
+
+
 .tpHB1{
  margin-left:200px;
  border:1px solid #ddd;
@@ -577,13 +654,18 @@ hr.div{
 	margin-left:20px;
  	margin-top:10px;
 	width:100%;
-	
+	padding:5px;
 }
 .tptOut{
  border:1px solid #ddd;
  border-radius:5px;
  width:100%;
+ font-size:15px;
  
+}
+
+.tpH2{
+ font-size:13px;
 }
 
 
@@ -637,6 +719,7 @@ hr.div{
 /*Top Meta Posts*/
 .tmp{
  width:100%;
+ font-size:13;
 }
 
 .tmp a{
@@ -657,6 +740,7 @@ hr.div{
 .tmpR{
  display:flex;
  width:100%;
+ padding:5px;
 }
 
 
@@ -682,10 +766,15 @@ hr.div{
  text-decoration:none;
  color:rgb(27,117,208);
 }*/
+.tnp{
+ font-size:13px;
+}
 
 .tnpQ a{
  text-decoration:none;
  color:rgb(27,117,208);
+ 
+ font-size:13px;
 }
 .va{
  text-decoration:none;
@@ -714,6 +803,7 @@ hr.div{
 
 .tnpR{
  display:flex;
+ padding:5px;
 }
 
 .tnpI{
